@@ -54,13 +54,13 @@ Gem::Specification.new do |s|
 
 }
 
-  s.add_development_dependency 'rake', '~> 10'
+  s.add_development_dependency 'rake'
 
-  s.add_dependency 'gherkin', '>= 4.0', '< 6.0'
-  s.add_dependency 'cucumber', '>= 2.0', '< 4.0'
-  s.add_dependency 'yard', '~> 0.8', '>= 0.8.1'
+  s.add_dependency 'gherkin'
+  s.add_dependency 'cucumber'
+  s.add_dependency 'yard'
 
-  s.rubygems_version   = "1.3.7"
+  s.rubygems_version   = "3.2.32"
   s.files            = `git ls-files`.split("\n")
   s.extra_rdoc_files = ["README.md", "History.txt"]
   s.rdoc_options     = ["--charset=UTF-8"]
