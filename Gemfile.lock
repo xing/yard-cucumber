@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    yard-cucumber (5.0.1)
+    yard-cucumber (5.1.0.pre.mrt)
       cucumber
       gherkin
       yard
